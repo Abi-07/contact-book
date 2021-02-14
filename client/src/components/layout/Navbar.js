@@ -27,6 +27,12 @@ const Navbar = ({ title, icon }) => {
                     </span>
                 </a>
             </li>
+            <li>
+                <Link to="/">Home</Link>
+            </li>
+            <li>
+                <Link to="/about">About</Link>
+            </li>
         </Fragment>
     );
 
